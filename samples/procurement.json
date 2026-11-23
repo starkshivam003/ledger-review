@@ -1,0 +1,12 @@
+{
+  "orders": [
+    {"po_id": "PO-410", "vendor": "Northwind Traders", "ceiling_paise": 10000000},
+    {"po_id": "PO-520", "vendor": "Aster Supplies", "ceiling_paise": 5000000},
+    {"po_id": "PO-521", "vendor": "Aster Supplies", "ceiling_paise": 4000000},
+    {"po_id": "PO-630", "vendor": "Kestrel Logistics", "ceiling_paise": 2500000}
+  ],
+  "approvals": [
+    {"vendor": "Northwind Traders", "invoice_number": "NW-2026-101", "po_id": "PO-410",
+     "amount_paise": 7000000, "reference": "APR-OPENING", "approved_at": "2026-10-28T10:00:00Z"}
+  ]
+}

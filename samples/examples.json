@@ -1,0 +1,51 @@
+[
+  {
+    "id": "exceeds",
+    "file": "01_exceeds_balance.pdf",
+    "title": "Exceeds remaining balance",
+    "expect": "Hold",
+    "note": "₹35,000 against ₹30,000 left on PO-410"
+  },
+  {
+    "id": "clean",
+    "file": "02_clean_partial.pdf",
+    "title": "Clean partial invoice",
+    "expect": "Approved",
+    "note": "₹25,000 instalment on PO-410"
+  },
+  {
+    "id": "resent",
+    "file": "03_resent_copy_FINAL_v2.pdf",
+    "title": "Renamed copy of clean invoice",
+    "expect": "Duplicate blocked",
+    "note": "Same invoice number, new file name"
+  },
+  {
+    "id": "alternate",
+    "file": "04_alternate_layout.pdf",
+    "title": "Alternate layout",
+    "expect": "Approved",
+    "note": "Supplier / Bill No / Amount Due labels, ₹4,500"
+  },
+  {
+    "id": "nopo",
+    "file": "05_no_po_reference.pdf",
+    "title": "No PO reference",
+    "expect": "Hold",
+    "note": "Vendor has two open POs"
+  },
+  {
+    "id": "scan",
+    "file": "06_scanned_image.pdf",
+    "title": "Scanned image",
+    "expect": "Hold",
+    "note": "No text layer"
+  },
+  {
+    "id": "conflict",
+    "file": "07_conflicting_totals.pdf",
+    "title": "Conflicting totals",
+    "expect": "Hold",
+    "note": "Grand Total and Amount Due disagree"
+  }
+]
